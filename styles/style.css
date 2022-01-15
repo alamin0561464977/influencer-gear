@@ -115,39 +115,48 @@ nav{
 }
 
 /*----------------------
------icons section------
+---Popular Collection---
 ----------------------*/
-#feature{
+.Popular-Collection{
     background-color: rgb(231, 230, 230);
-}
-.section-title{
-    text-align: center;
-    margin-top: px;
-    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
 }
 .Popular{
-    border-bottom: 1px solid #800c10;
-    display: inline-block;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px black;
 }
-.cards{
+.Collection{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
- }
- .card{
-     background-color: crimsn;
-     margin: 10px;
-    
- }
- .card img{
-     height: 250px;
-     width: 350px;
- }
- .icons{
-     display: flex;
-     align-items: center;
- }
- .picture{
-     background-color: black;
-     color: #fff;
-     text-align: center;
- }
+    margin: 0px;
+}
+.heding{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    padding: 40px;
+    font-size: 40px;
+}
+.Popular-banner img{
+    height: 180px;
+    width: 250px;
+}
+.Popular{
+ 
+}
+.filled{
+    color: goldenrod;
+}
+/* ------ */
+.Copyright{
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
